@@ -61,27 +61,6 @@ body {
 }
 
 /*=========== buttons ======*/
-/*button {
-  font-family: inherit;
-}*/
-.btn:hover,
-.btn:focus {
-  background: #404bbf;
-  color: white;
-}
-
-.btn {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background: #4d5ae5;
-  color: white;
-  cursor: pointer;
-  border: 1px solid transparent;
-  display: inline-block;
-}
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -104,6 +83,18 @@ body {
 /*=====/buttons====*/
 
 /*======header-nav====*/
+.section-header {
+  margin: auto;
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-header {
+  display: flex;
+}
 
 .menu-item {
   font-family: var(--primary-font);
@@ -112,6 +103,31 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: #2e2f42;
+
+}
+
+.nav-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 76px;
+  margin-right: 332px;
+  text-align: center;
+}
+
+.nav-item .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-contacts {
+  display: flex;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-contacts .contacts:first-child {
+  margin-right: 40px;
 }
 
 .menu-contact,
@@ -127,6 +143,7 @@ body {
 /*====== section 1====*/
 .section-one {
   background-color: #2e2f42;
+
 }
 
 .title {
@@ -136,18 +153,73 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: var(--letter-spacing);
-
+  margin: 0;
+  margin-bottom: 48px;
   color: #ffffff;
+  width: 496px;
+
+}
+
+.btn:hover,
+.btn:focus {
+  background: #404bbf;
+  color: white;
+}
+
+.btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: inline-block;
+
+
+
+}
+
+.cont-hero-t {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 188px;
+}
+
+.cont-hero {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 188px;
 }
 
 /*====== section 2 ======*/
-.title-three {
+
+.list-two {
+  display: flex;
+
+}
+
+.cont-two {
+
+  flex-direction: column;
+}
+
+
+.title-three-index {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
   color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -157,34 +229,95 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--primary-color);
+  text-align: left;
+  width: 258px;
+}
+
+.list-next:not(:last-child) {
+  margin-right: 24px;
 }
 
 /*===== section 3 =====*/
+
+.cont-three,
+.cont-four {
+  margin: 0;
+
+  flex-direction: column;
+}
+
+.list-img,
+.list-img-four {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+
+}
+
 .title-two {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+
   letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
   color: #2e2f42;
-  display: flex;
-  text-align: center;
+
+  margin-bottom: 72px;
+
 }
 
 /*====== section 4 =====*/
 
 .section-four {
+  padding: 0;
+  margin: 0;
   background-color: #f4f4fd;
 }
 
 .section-four-list {
+
   background-color: #ffffff;
 }
 
+.card-cont {
+
+  padding: 16px 32px;
+}
+
+.title-card {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: #2e2f42;
+}
+
+.text-card {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--primary-color);
+}
+
+/*=======footer======*/
+
 .footer {
+
+  border: 1px;
   background-color: #2e2f42;
+
+}
+
+.logo-footer {
+  margin-top: 100px;
+  margin-bottom: 16px;
 }
 
 .logo-link-two {
@@ -204,53 +337,120 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: #f4f4fd;
-}
-.section {
-padding-left: 156px;
-padding-right: 156px;
-padding-bottom: 120px
-}
-.container {
-
-
-margin: 0;
-padding: 0;
-
+  width: 264px;
+  text-align: left;
 }
 
-.box-header {
+.cont-footer {
+  flex-direction: column;
+}
+
+/*======= portfolio====*/
+
+.btn-pf {
   display: flex;
-padding-left: 156px;
-padding-right: 156px;
- padding-top: 24px;
-  padding-bottom: 24px;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
+
+.button-pf:not(:last-child) {
+  margin-right: 24px;
+}
+
+.title-two-pf {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: #2e2f42;
+  text-align: left;
+}
+
+.text-card {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--primary-color);
+  margin-top: 8px;
+
+  text-align: left;
+}
+
+.container-pf {
   text-align: center;
+  margin: auto;
+  width: 1158px;
 }
-.nav-item {
-  display: flex;
 
+.list-portfolio {
+
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-left: 76px;
-  margin-right: 332px;
- 
+
+  margin-left: -24px;
+  margin-top: -48px;
 }
-.nav-item .item:not(:last-child) {
-  margin-right: 40px;
+
+.card-set {
+ width: 360px;
 }
-  .menu-contacts .contacts:first-child {
-  margin-right: 40px;
-  }
-  
+
+.list-portfolio>.card-set {
+  flex-basis: calc(100% / 3 -24px);
+  margin-left: 24px;
+  margin-top: 48px;
+}
+
+.card-content {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E7E9FC;
+}
+
+.img-card {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+/*=====bloc-flex====*/
+h1,
 h2,
 h3,
 p {
   margin: 0;
   padding: 0;
 }
-/*===удалить в индекс тоже клас.img-list {
-display: flex;
-}*/
-.list-img {
-display: flex;
+
+.section {
+
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 120px;
+
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
