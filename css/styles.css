@@ -90,8 +90,7 @@ body {
 
 /*======header-nav====*/
 .section-header {
-  margin: 0 auto;
-  width: 1158px;
+
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 24px;
@@ -130,7 +129,6 @@ body {
 
 .menu-contacts {
   display: flex;
-  text-align: center;
   padding: 0;
   margin: 0;
   gap: 40px;
@@ -138,8 +136,7 @@ body {
 
 
 
-.menu-contact,
-.addres {
+.menu-contact {
   font-family: var(--primary-font);
   font-weight: var(--font-weight);
   font-size: 16px;
@@ -457,9 +454,8 @@ p {
 }
 
 .container {
-
+width: 1158px;
   margin: 0 auto;
-  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 
