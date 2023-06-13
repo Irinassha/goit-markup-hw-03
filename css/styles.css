@@ -104,7 +104,6 @@ body {
 
 .nav-header {
   display: flex;
-  align-items: center;
 }
 
 .menu-item {
@@ -129,11 +128,10 @@ body {
 
 .menu-contacts {
   display: flex;
- padding: 0;
+  padding: 0;
+  margin: 0;
   gap: 40px;
 }
-
-
 
 .menu-contact {
   font-family: var(--primary-font);
@@ -438,12 +436,7 @@ img {
 
 /*=====bloc-flex====*/
 
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
+
 
 .section {
 
@@ -453,7 +446,7 @@ p {
 }
 
 .container {
-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
