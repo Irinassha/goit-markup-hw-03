@@ -127,9 +127,13 @@ body {
   gap: 40px;
 }
 
+.item {
+padding: 24px 0; 
+}
 
 .menu-contacts {
   display: flex;
+  padding: 0;
   gap: 40px;
 }
 
