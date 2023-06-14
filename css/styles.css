@@ -57,10 +57,7 @@ body {
   color: #404bbf;
 }
 
-.addres {
-  font-style: normal;
-  margin-left: auto;
-}
+
 
 /*=========== buttons ======*/
 
@@ -110,30 +107,26 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: #2e2f42;
- 
+ padding: 24px 0; 
 }
 
 .nav-item {
   display: flex;
   padding: 0;
-  margin: 0;
   
   gap: 40px;
 }
 
-.item {
-padding: 24px 0; 
+.addres {
+  font-style: normal;
+  margin-left: auto;
 }
 
 .menu-contacts {
   display: flex;
- padding: 0;
-  margin: auto;
+ gap: 40px;
 }
 
-.cont:not(:last-child) {
-  margin-right: 40px;
-}
 
 .menu-cont {
   font-family: var(--primary-font);
