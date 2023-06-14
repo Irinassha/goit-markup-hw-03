@@ -91,11 +91,6 @@ body {
 
 /*======header-nav====*/
 .section-header {
-
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -123,7 +118,7 @@ body {
   padding: 0;
   margin: 0;
   margin-right: 332px;
-  text-align: center;
+  text-align: center; 
   gap: 40px;
 }
 
@@ -133,7 +128,7 @@ padding: 24px 0;
 
 .menu-contacts {
   display: flex;
-  padding: 0;
+ padding: 0;
   gap: 40px;
 }
 
