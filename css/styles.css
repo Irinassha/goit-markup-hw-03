@@ -130,7 +130,6 @@ body {
 
 .menu-contacts {
   display: flex;
-  padding: 0;
   gap: 40px;
 }
 
